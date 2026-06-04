@@ -1,0 +1,21 @@
+# Dependencias para la aplicación Raspberry Pi Zero 2W
+
+# Control de GPIO
+#RPi.GPIO==0.7.0
+
+# Cámara (picamera2 es la nueva librería, más eficiente)
+#picamera2>=0.3.12
+
+# I2C y pantalla OLED
+#adafruit-circuitpython-ssd1306==1.9.9
+#adafruit-blinka>=8.14.0
+# `board` y `busio` son módulos provistos por `adafruit-blinka`, no paquetes pip independientes
+
+# Procesamiento de imágenes
+#Pillow>=9.5.0
+
+# Servidor web local
+Flask>=2.0.0
+
+# Utilidades
+# numpy no es necesario para esta aplicación actual, se elimina para evitar compilaciones pesadas en Raspberry Pi
